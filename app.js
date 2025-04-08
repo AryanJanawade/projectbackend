@@ -14,6 +14,7 @@ app.use(express.json())
 app.use(cors());
 app.use(morgan("dev"));
 
+
 //aeH6U9uYmaNRlvInX
 mongoose.connect('mongodb+srv://janawadeaaryan:szUnqwCsHq0Z3p8O@cluster0.xnq0mha.mongodb.net/?retryWrites=true&w=majority')
 .then(()=>{
